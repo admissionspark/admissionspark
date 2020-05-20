@@ -49,7 +49,7 @@
           <li><a href="#Gallery">Gallery</a></li>
           <li><a href="#about-us">About Us</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a href="previouspapers.html">Past Papers<img class="pastpapers" src="img/pdf.gif"></a></li>
+          <li><a style="padding-top: 2px;" href="previouspapers.html">Past Papers &nbsp; <img class="pastpapers" src="img/pdf.gif"> </a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -385,16 +385,20 @@
                 <br>New Delhi 110085</p>
             </div>
 
-            <div class="email">
-              <i class="fa fa-envelope"></i>
-              <p>info@admissionspark.com</p>
-            </div>
+            <a href="mailto:info.admissionspark@gmail.com">
+              <div class="email">
+                <i class="fa fa-envelope"></i>
+                <p>info.admissionspark@gmail.com</p>
+              </div>
+            </a>
 
-            <div>
-              <i class="fa fa-phone"></i>
-              <p>+91 96547 47581
-              <br>+91 93150 65641</p>
-            </div>
+            <a href="tel:+919654747581">
+              <div>
+                <i class="fa fa-phone"></i>
+                <p>+91 96547 47581
+                <!-- <br>+91 93150 65641</p> -->
+              </div>
+            </a>
           </div>
 
           <div class="social-links">
@@ -451,7 +455,12 @@
 
 
   <div id="footer-inner">
-		<p class="footer-Text">&copy; Copyrights Yashika Admission Spark. All rights reserved.</p>
+		<p class="footer-Text">&copy;
+      <script>
+        const date = new Date();
+        document.write(date.getFullYear());
+      </script>
+      Yashika Admission Spark. All rights reserved.</p>
 	</div>
 
 
