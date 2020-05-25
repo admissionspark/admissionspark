@@ -5,7 +5,7 @@ if(!isset($_POST['submit']))
 	echo "error; you need to submit the form!";
 }
 
-$to = "info@admissionspark.com"; // this is your Email address
+$to = "info.admissionspark@gmail.com"; // this is your Email address
     $from = $_POST['email']; // this is the sender's Email address
     $name = $_POST['name'];
     $mobile = $_POST['mobile'];
