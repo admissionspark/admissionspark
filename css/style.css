@@ -935,10 +935,6 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 /* Testimonials Section
 --------------------------------*/
-#testimonials {
-  display: none;
-}
-
 #testimonials .testimonials-content {
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
   padding: 49px 20px;
