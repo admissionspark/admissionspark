@@ -1333,3 +1333,14 @@ body.mobile-nav-active #mobile-nav-toggle i {
 .footer-Text{
   color: white;
 }
+
+/* Modals Icons */
+.modal .fa-map-marker {
+  font-size: x-large;
+}
+.modal .fa-phone{
+  font-size: large;
+}
+.modal .fa-envelope{
+  font-size: large;
+}
