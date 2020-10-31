@@ -157,3 +157,7 @@ function validateMyForm()
     return false;
   }
 }
+
+function onLoadFuction() {
+  document.getElementById('contact-modal-popup').click();
+}
